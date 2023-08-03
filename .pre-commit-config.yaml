@@ -10,7 +10,8 @@ repos:
       - id: check-merge-conflict
       - id: check-symlinks
       - id: check-toml
-      - id: check-yaml
+        # Commented out the check-yaml hook because it seems that it doesn't parse the Helm templates successfully.
+        #      - id: check-yaml
       - id: end-of-file-fixer
       - id: mixed-line-ending
       - id: no-commit-to-branch
