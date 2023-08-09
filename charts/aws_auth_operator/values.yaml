@@ -17,7 +17,7 @@ strategy: Recreate
 namespace: infra
 
 customLabels:
-  prefer_run_on_fargate: yes
+  prefer_run_on_fargate: 'yes'
 
 serviceAccount:
   # Specifies whether a service account should be created
